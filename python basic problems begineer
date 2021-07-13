@@ -1,0 +1,13 @@
+#Given two integer numbers return their product. If the product is greater than 1000, then return their sum #
+
+def mult_or_sum(a,b):
+    product = a*b
+    if product <=1000:
+        return product
+    else:
+        return a +b
+result = mult_or_sum(34,34)
+print("The result is ", result)
+
+result = mult_or_sum(34,65)
+print("The result is ",result )
